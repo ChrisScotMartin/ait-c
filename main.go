@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ChrisScotMartin/ait-c/pkgmodc"
+	"github.com/ChrisScotMartin/ait-c/renamed-pkgmodc"
 )
 
 func main() {
