@@ -8,6 +8,6 @@ go 1.16
 
 //Go get will always pull pkgmodc from a previous commit instead of the local more up-to-date version. Two solutions for that, I can either commit/push this as is and then do a go get now that the module is updated. Or I can fix it with a local replace like this:
 
-replace github.com/ChrisScotMartin/ait-c/renamedpkgmodc => ./renamedpkgmodc
+replace github.com/ChrisScotMartin/ait-c/newdir/pkgmodc => ./newdir/pkgmodc
 
-require github.com/ChrisScotMartin/ait-c/renamedpkgmodc v0.0.0-00010101000000-000000000000
+require github.com/ChrisScotMartin/ait-c/newdir/pkgmodc v0.0.0-00010101000000-000000000000
