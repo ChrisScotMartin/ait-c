@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/ChrisScotMartin/ait-c/renamed-pkgmodc"
+	"github.com/ChrisScotMartin/ait-c/renamedpkgmodc"
 )
 
 func main() {
 	fmt.Println("Hello World")
-	pkgmodc.Hello()
+	renamedpkgmodc.Hello()
 }
 
 func SomeServerFunc() {
