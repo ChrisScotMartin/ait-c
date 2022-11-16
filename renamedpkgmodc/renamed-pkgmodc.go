@@ -1,4 +1,4 @@
-package pkgmodc
+package renamedpkgmodc
 
 import "fmt"
 
