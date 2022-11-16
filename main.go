@@ -11,5 +11,5 @@ func main() {
 }
 
 func SomeServerFunc() {
-	fmt.Println("I'm a func from the main root module ait-c")
+	fmt.Println("I'm a func from the root module ait-c")
 }
